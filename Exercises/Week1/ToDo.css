@@ -1,0 +1,40 @@
+body {
+  background-color: aliceblue;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  color: #fff;
+  background: black;
+}
+
+/* Style the close button */
+.remove {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.remove:hover {
+  background-color: #f44336;
+}
+
+/* Clear floats after the prompt */
+.prompt:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.AddButton:hover {
+  background-color: black;
+  color: white;
+}
