@@ -6,7 +6,7 @@ for (var i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
-// Click on the remove button to remove the current list item
+// Click on the remove button to remove the current list item !
 var remove = document.getElementsByClassName("remove");
 for (var i = 0; i < remove.length; i++) {
   remove[i].onclick = function() {
